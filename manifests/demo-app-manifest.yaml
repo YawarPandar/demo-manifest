@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - image: mfrl/spring-boot-demo:latest
-        name: demo-app-v39
+        name: demo-app-v40
         ports:
         - containerPort: 8080
