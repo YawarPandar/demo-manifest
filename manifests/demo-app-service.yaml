@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: demo-app-v35
+  name: demo-app-v36
 spec:
   ports:
   - port: 8080
     protocol: TCP
     targetPort: 8080
   selector:
-    app: demo-app-v35
+    app: demo-app-v36
   type: NodePort
